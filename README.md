@@ -18,7 +18,7 @@ The simulator builds a Walker Delta constellation with circular orbits, where sa
 ISLs are assumed to be bidirectional. If one of the two links of a bidirectional pair is in outage at the physical layer, the link is assumed to be unavailable in both directions.
 
 ## Software structure
-The simulator is a single-file Matlab program. It should require 
+The simulator is a single-file Matlab program. It should work with plain Matlab - no toolboxes required.
 
 
 Thanks for your interest in SpecaDataLEO!  

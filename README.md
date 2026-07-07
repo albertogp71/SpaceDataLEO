@@ -15,8 +15,9 @@ The simulator is a single-file Matlab program where the user specifies the follo
  1. the Sun latitude and longitude. 
 
 The simulator builds a Walker Delta constellation with circular orbits, where satellites have uniform angular separation along the orbit.
-Orbits are equally spaced according to their RAAN.
+The orbital planes are uniformly distributed over the 360° range of Right Ascension of the Ascending Node (RAAN).
 ISLs are assumed bidirectional. If one of the two links of a bidirectional pair is in outage, the link is assumed to be unavailable in both directions.
+
 
 ## Software structure
 The simulator is a single-file Matlab program. It should work with plain Matlab - no toolboxes required.

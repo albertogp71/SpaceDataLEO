@@ -20,8 +20,11 @@ ISLs are assumed bidirectional. If one of the two links of a bidirectional pair 
 
 
 ## Software structure
-The simulator is a single-file Matlab program. It should work with plain Matlab - no toolboxes required.
+The simulator is implemented in a single-file Matlab program.
+It should work with plain Matlab - no toolboxes required.
+Download the main file SpaceDataLEO_vxyz.m and tun it as follows:
 
+``>> SpaceDataLeo_vxyz.m``.
 
 Thanks for your interest in SpecaDataLEO!  
 Alberto  
